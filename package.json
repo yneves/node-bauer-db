@@ -1,6 +1,6 @@
 {
   "name": "bauer-db",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Modern API for SQL databases.",
   "keywords": ["sqlite","database","sql"],
   "license": "MIT",
