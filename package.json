@@ -1,0 +1,30 @@
+{
+  "name": "bauer-db",
+  "version": "0.1.0",
+  "description": "Modern API for SQL databases.",
+  "keywords": ["sqlite","database","sql"],
+  "license": "MIT",
+  "homepage": "https://github.com/yneves/node-bauer-db",
+  "author": {
+    "name": "Yuri Neves Silveira",
+    "url": "http://yneves.com/",
+    "email": "npm@yneves.com"
+  },
+  "repository":{
+    "type": "git",
+    "url": "https://github.com/yneves/node-bauer-db.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "mocha": ">=1.0.0"
+  },
+  "main": "db.js",
+  "dependencies": {
+    "bauer-sql": ">=1.1.0",
+    "bauer-factory": ">=1.0.7",
+    "bauer-promise": ">=1.0.3",
+    "sqlite3": "^2.2.3"
+  }
+}
