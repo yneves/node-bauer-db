@@ -27,10 +27,11 @@
   },
   "main": "db.js",
   "dependencies": {
-    "bauer-sql": ">=1.1.0",
     "bauer-factory": ">=1.1.2",
     "bauer-promise": ">=1.0.3",
-    "sqlite3": "^2.2.3",
-    "mysql": "^2.5.0"
+    "bauer-sql": ">=1.1.0",
+    "mysql": "^2.5.0",
+    "pg.js": "^3.5.0",
+    "sqlite3": "^2.2.3"
   }
 }

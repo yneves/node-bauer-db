@@ -19,6 +19,11 @@ exports.sqlite3 = function(config) {
   return new SQLite3(config);
 };
 
+exports.pgsql = function(config) {
+  var PostgreSQL = require("./lib/driver/postgresql.js");
+  return new PostgreSQL(config);
+};
+
 exports.cls = {};
 exports.cls.Database = require("./lib/database.js");
 
